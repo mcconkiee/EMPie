@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1F8DD6C15D29E8A00B207A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F8DD6B15D29E8A00B207A4 /* UIKit.framework */; };
+		A1F8DD6E15D29E8A00B207A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F8DD6D15D29E8A00B207A4 /* Foundation.framework */; };
+		A1F8DD7015D29E8A00B207A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F8DD6F15D29E8A00B207A4 /* CoreGraphics.framework */; };
+		A1F8DD7615D29E8A00B207A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1F8DD7415D29E8A00B207A4 /* InfoPlist.strings */; };
+		A1F8DD7815D29E8A00B207A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8DD7715D29E8A00B207A4 /* main.m */; };
+		A1F8DD7C15D29E8A00B207A4 /* EMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8DD7B15D29E8A00B207A4 /* EMAppDelegate.m */; };
+		A1F8DD7F15D29E8A00B207A4 /* EMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8DD7E15D29E8A00B207A4 /* EMViewController.m */; };
+		A1F8DD8215D29E8A00B207A4 /* EMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1F8DD8015D29E8A00B207A4 /* EMViewController.xib */; };
+		A1F8DD8A15D29E8A00B207A4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F8DD8915D29E8A00B207A4 /* SenTestingKit.framework */; };
+		A1F8DD8B15D29E8A00B207A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F8DD6B15D29E8A00B207A4 /* UIKit.framework */; };
+		A1F8DD8C15D29E8A00B207A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F8DD6D15D29E8A00B207A4 /* Foundation.framework */; };
+		A1F8DD9415D29E8A00B207A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1F8DD9215D29E8A00B207A4 /* InfoPlist.strings */; };
+		A1F8DD9715D29E8A00B207A4 /* EMPieSliceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8DD9615D29E8A00B207A4 /* EMPieSliceTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1F8DD8D15D29E8A00B207A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1F8DD5E15D29E8900B207A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1F8DD6615D29E8A00B207A4;
+			remoteInfo = EMPieSlice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1F8DD6715D29E8A00B207A4 /* EMPieSlice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMPieSlice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F8DD6B15D29E8A00B207A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A1F8DD6D15D29E8A00B207A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A1F8DD6F15D29E8A00B207A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A1F8DD7315D29E8A00B207A4 /* EMPieSlice-Info.plist */ = {isa = PBXFileReference; path = "EMPieSlice-Info.plist"; sourceTree = "<group>"; };
+		A1F8DD7515D29E8A00B207A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1F8DD7715D29E8A00B207A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1F8DD7915D29E8A00B207A4 /* EMPieSlice-Prefix.pch */ = {isa = PBXFileReference; path = "EMPieSlice-Prefix.pch"; sourceTree = "<group>"; };
+		A1F8DD7A15D29E8A00B207A4 /* EMAppDelegate.h */ = {isa = PBXFileReference; path = EMAppDelegate.h; sourceTree = "<group>"; };
+		A1F8DD7B15D29E8A00B207A4 /* EMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMAppDelegate.m; sourceTree = "<group>"; };
+		A1F8DD7D15D29E8A00B207A4 /* EMViewController.h */ = {isa = PBXFileReference; path = EMViewController.h; sourceTree = "<group>"; };
+		A1F8DD7E15D29E8A00B207A4 /* EMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMViewController.m; sourceTree = "<group>"; };
+		A1F8DD8115D29E8A00B207A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EMViewController.xib; sourceTree = "<group>"; };
+		A1F8DD8815D29E8A00B207A4 /* EMPieSliceTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMPieSliceTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F8DD8915D29E8A00B207A4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A1F8DD9115D29E8A00B207A4 /* EMPieSliceTests-Info.plist */ = {isa = PBXFileReference; path = "EMPieSliceTests-Info.plist"; sourceTree = "<group>"; };
+		A1F8DD9315D29E8A00B207A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1F8DD9515D29E8A00B207A4 /* EMPieSliceTests.h */ = {isa = PBXFileReference; path = EMPieSliceTests.h; sourceTree = "<group>"; };
+		A1F8DD9615D29E8A00B207A4 /* EMPieSliceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMPieSliceTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1F8DD6415D29E8A00B207A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F8DD6C15D29E8A00B207A4 /* UIKit.framework in Frameworks */,
+				A1F8DD6E15D29E8A00B207A4 /* Foundation.framework in Frameworks */,
+				A1F8DD7015D29E8A00B207A4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F8DD8415D29E8A00B207A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F8DD8A15D29E8A00B207A4 /* SenTestingKit.framework in Frameworks */,
+				A1F8DD8B15D29E8A00B207A4 /* UIKit.framework in Frameworks */,
+				A1F8DD8C15D29E8A00B207A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1F8DD5C15D29E8900B207A4 = {
+			isa = PBXGroup;
+			children = (
+				A1F8DD7115D29E8A00B207A4 /* EMPieSlice */,
+				A1F8DD8F15D29E8A00B207A4 /* EMPieSliceTests */,
+				A1F8DD6A15D29E8A00B207A4 /* Frameworks */,
+				A1F8DD6815D29E8A00B207A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1F8DD6815D29E8A00B207A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8DD6715D29E8A00B207A4 /* EMPieSlice.app */,
+				A1F8DD8815D29E8A00B207A4 /* EMPieSliceTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1F8DD6A15D29E8A00B207A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8DD6B15D29E8A00B207A4 /* UIKit.framework */,
+				A1F8DD6D15D29E8A00B207A4 /* Foundation.framework */,
+				A1F8DD6F15D29E8A00B207A4 /* CoreGraphics.framework */,
+				A1F8DD8915D29E8A00B207A4 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1F8DD7115D29E8A00B207A4 /* EMPieSlice */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8DD7A15D29E8A00B207A4 /* EMAppDelegate.h */,
+				A1F8DD7B15D29E8A00B207A4 /* EMAppDelegate.m */,
+				A1F8DD7D15D29E8A00B207A4 /* EMViewController.h */,
+				A1F8DD7E15D29E8A00B207A4 /* EMViewController.m */,
+				A1F8DD8015D29E8A00B207A4 /* EMViewController.xib */,
+				A1F8DD7215D29E8A00B207A4 /* Supporting Files */,
+			);
+			path = EMPieSlice;
+			sourceTree = "<group>";
+		};
+		A1F8DD7215D29E8A00B207A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8DD7315D29E8A00B207A4 /* EMPieSlice-Info.plist */,
+				A1F8DD7415D29E8A00B207A4 /* InfoPlist.strings */,
+				A1F8DD7715D29E8A00B207A4 /* main.m */,
+				A1F8DD7915D29E8A00B207A4 /* EMPieSlice-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1F8DD8F15D29E8A00B207A4 /* EMPieSliceTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8DD9515D29E8A00B207A4 /* EMPieSliceTests.h */,
+				A1F8DD9615D29E8A00B207A4 /* EMPieSliceTests.m */,
+				A1F8DD9015D29E8A00B207A4 /* Supporting Files */,
+			);
+			path = EMPieSliceTests;
+			sourceTree = "<group>";
+		};
+		A1F8DD9015D29E8A00B207A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8DD9115D29E8A00B207A4 /* EMPieSliceTests-Info.plist */,
+				A1F8DD9215D29E8A00B207A4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1F8DD6615D29E8A00B207A4 /* EMPieSlice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F8DD9A15D29E8A00B207A4 /* Build configuration list for PBXNativeTarget "EMPieSlice" */;
+			buildPhases = (
+				A1F8DD6315D29E8A00B207A4 /* Sources */,
+				A1F8DD6415D29E8A00B207A4 /* Frameworks */,
+				A1F8DD6515D29E8A00B207A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EMPieSlice;
+			productName = EMPieSlice;
+			productReference = A1F8DD6715D29E8A00B207A4 /* EMPieSlice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1F8DD8715D29E8A00B207A4 /* EMPieSliceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F8DD9D15D29E8A00B207A4 /* Build configuration list for PBXNativeTarget "EMPieSliceTests" */;
+			buildPhases = (
+				A1F8DD8315D29E8A00B207A4 /* Sources */,
+				A1F8DD8415D29E8A00B207A4 /* Frameworks */,
+				A1F8DD8515D29E8A00B207A4 /* Resources */,
+				A1F8DD8615D29E8A00B207A4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1F8DD8E15D29E8A00B207A4 /* PBXTargetDependency */,
+			);
+			name = EMPieSliceTests;
+			productName = EMPieSliceTests;
+			productReference = A1F8DD8815D29E8A00B207A4 /* EMPieSliceTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1F8DD5E15D29E8900B207A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EM;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A1F8DD6115D29E8900B207A4 /* Build configuration list for PBXProject "EMPieSlice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A1F8DD5C15D29E8900B207A4;
+			productRefGroup = A1F8DD6815D29E8A00B207A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1F8DD6615D29E8A00B207A4 /* EMPieSlice */,
+				A1F8DD8715D29E8A00B207A4 /* EMPieSliceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1F8DD6515D29E8A00B207A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F8DD7615D29E8A00B207A4 /* InfoPlist.strings in Resources */,
+				A1F8DD8215D29E8A00B207A4 /* EMViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F8DD8515D29E8A00B207A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F8DD9415D29E8A00B207A4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1F8DD8615D29E8A00B207A4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1F8DD6315D29E8A00B207A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F8DD7815D29E8A00B207A4 /* main.m in Sources */,
+				A1F8DD7C15D29E8A00B207A4 /* EMAppDelegate.m in Sources */,
+				A1F8DD7F15D29E8A00B207A4 /* EMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F8DD8315D29E8A00B207A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F8DD9715D29E8A00B207A4 /* EMPieSliceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1F8DD8E15D29E8A00B207A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1F8DD6615D29E8A00B207A4 /* EMPieSlice */;
+			targetProxy = A1F8DD8D15D29E8A00B207A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1F8DD7415D29E8A00B207A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1F8DD7515D29E8A00B207A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A1F8DD8015D29E8A00B207A4 /* EMViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1F8DD8115D29E8A00B207A4 /* en */,
+			);
+			name = EMViewController.xib;
+			sourceTree = "<group>";
+		};
+		A1F8DD9215D29E8A00B207A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1F8DD9315D29E8A00B207A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1F8DD9815D29E8A00B207A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1F8DD9915D29E8A00B207A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1F8DD9B15D29E8A00B207A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EMPieSlice/EMPieSlice-Prefix.pch";
+				INFOPLIST_FILE = "EMPieSlice/EMPieSlice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A1F8DD9C15D29E8A00B207A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EMPieSlice/EMPieSlice-Prefix.pch";
+				INFOPLIST_FILE = "EMPieSlice/EMPieSlice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A1F8DD9E15D29E8A00B207A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EMPieSlice.app/EMPieSlice";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EMPieSlice/EMPieSlice-Prefix.pch";
+				INFOPLIST_FILE = "EMPieSliceTests/EMPieSliceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A1F8DD9F15D29E8A00B207A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EMPieSlice.app/EMPieSlice";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EMPieSlice/EMPieSlice-Prefix.pch";
+				INFOPLIST_FILE = "EMPieSliceTests/EMPieSliceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1F8DD6115D29E8900B207A4 /* Build configuration list for PBXProject "EMPieSlice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F8DD9815D29E8A00B207A4 /* Debug */,
+				A1F8DD9915D29E8A00B207A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1F8DD9A15D29E8A00B207A4 /* Build configuration list for PBXNativeTarget "EMPieSlice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F8DD9B15D29E8A00B207A4 /* Debug */,
+				A1F8DD9C15D29E8A00B207A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1F8DD9D15D29E8A00B207A4 /* Build configuration list for PBXNativeTarget "EMPieSliceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F8DD9E15D29E8A00B207A4 /* Debug */,
+				A1F8DD9F15D29E8A00B207A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1F8DD5E15D29E8900B207A4 /* Project object */;
+}
