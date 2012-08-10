@@ -8,7 +8,7 @@
 
 #import "EMAppDelegate.h"
 
-#import "EMViewController.h"
+#import "SandboxViewController.h"
 
 @implementation EMAppDelegate
 
@@ -26,8 +26,10 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    self.viewController = [[[EMViewController alloc] initWithNibName:@"EMViewController" bundle:nil] autorelease];
-    self.window.rootViewController = self.viewController;
+    self.viewController = [[[EMMainViewController alloc] initWithNibName:nil bundle:nil] autorelease];
+    UINavigationController *nav = [[[UINavigationController alloc] initWithRootViewController:self.viewController] autorelease];
+    
+    self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     return YES;
 }

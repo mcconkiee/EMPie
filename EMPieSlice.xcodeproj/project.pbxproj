@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A16D35E915D42D6E00B55A73 /* EMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A16D35E815D42D6E00B55A73 /* EMMainViewController.m */; };
+		A16D35ED15D42F4600B55A73 /* OppositesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A16D35EC15D42F4600B55A73 /* OppositesViewController.m */; };
 		A1F8DD6C15D29E8A00B207A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F8DD6B15D29E8A00B207A4 /* UIKit.framework */; };
 		A1F8DD6E15D29E8A00B207A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F8DD6D15D29E8A00B207A4 /* Foundation.framework */; };
 		A1F8DD7015D29E8A00B207A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F8DD6F15D29E8A00B207A4 /* CoreGraphics.framework */; };
 		A1F8DD7615D29E8A00B207A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1F8DD7415D29E8A00B207A4 /* InfoPlist.strings */; };
 		A1F8DD7815D29E8A00B207A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8DD7715D29E8A00B207A4 /* main.m */; };
 		A1F8DD7C15D29E8A00B207A4 /* EMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8DD7B15D29E8A00B207A4 /* EMAppDelegate.m */; };
-		A1F8DD7F15D29E8A00B207A4 /* EMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8DD7E15D29E8A00B207A4 /* EMViewController.m */; };
-		A1F8DD8215D29E8A00B207A4 /* EMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1F8DD8015D29E8A00B207A4 /* EMViewController.xib */; };
+		A1F8DD7F15D29E8A00B207A4 /* SandboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8DD7E15D29E8A00B207A4 /* SandboxViewController.m */; };
+		A1F8DD8215D29E8A00B207A4 /* SandboxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1F8DD8015D29E8A00B207A4 /* SandboxViewController.xib */; };
 		A1F8DD8A15D29E8A00B207A4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F8DD8915D29E8A00B207A4 /* SenTestingKit.framework */; };
 		A1F8DD8B15D29E8A00B207A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F8DD6B15D29E8A00B207A4 /* UIKit.framework */; };
 		A1F8DD8C15D29E8A00B207A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F8DD6D15D29E8A00B207A4 /* Foundation.framework */; };
 		A1F8DD9415D29E8A00B207A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1F8DD9215D29E8A00B207A4 /* InfoPlist.strings */; };
 		A1F8DD9715D29E8A00B207A4 /* EMPieSliceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8DD9615D29E8A00B207A4 /* EMPieSliceTests.m */; };
+		A1F8DDA415D29EAE00B207A4 /* EMPie.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8DDA115D29EAE00B207A4 /* EMPie.m */; };
+		A1F8DDA515D29EAE00B207A4 /* EMSlice.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8DDA315D29EAE00B207A4 /* EMSlice.m */; };
+		A1F8DDA715D29EB700B207A4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F8DDA615D29EB700B207A4 /* QuartzCore.framework */; };
+		A1F8DDAA15D2A1AC00B207A4 /* EMSliceDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8DDA915D2A1AC00B207A4 /* EMSliceDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,25 +39,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A16D35E715D42D6E00B55A73 /* EMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMainViewController.h; sourceTree = "<group>"; };
+		A16D35E815D42D6E00B55A73 /* EMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMainViewController.m; sourceTree = "<group>"; };
+		A16D35EB15D42F4600B55A73 /* OppositesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OppositesViewController.h; sourceTree = "<group>"; };
+		A16D35EC15D42F4600B55A73 /* OppositesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OppositesViewController.m; sourceTree = "<group>"; };
 		A1F8DD6715D29E8A00B207A4 /* EMPieSlice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMPieSlice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F8DD6B15D29E8A00B207A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A1F8DD6D15D29E8A00B207A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A1F8DD6F15D29E8A00B207A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A1F8DD7315D29E8A00B207A4 /* EMPieSlice-Info.plist */ = {isa = PBXFileReference; path = "EMPieSlice-Info.plist"; sourceTree = "<group>"; };
+		A1F8DD7315D29E8A00B207A4 /* EMPieSlice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EMPieSlice-Info.plist"; sourceTree = "<group>"; };
 		A1F8DD7515D29E8A00B207A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A1F8DD7715D29E8A00B207A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A1F8DD7915D29E8A00B207A4 /* EMPieSlice-Prefix.pch */ = {isa = PBXFileReference; path = "EMPieSlice-Prefix.pch"; sourceTree = "<group>"; };
-		A1F8DD7A15D29E8A00B207A4 /* EMAppDelegate.h */ = {isa = PBXFileReference; path = EMAppDelegate.h; sourceTree = "<group>"; };
+		A1F8DD7915D29E8A00B207A4 /* EMPieSlice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EMPieSlice-Prefix.pch"; sourceTree = "<group>"; };
+		A1F8DD7A15D29E8A00B207A4 /* EMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMAppDelegate.h; sourceTree = "<group>"; };
 		A1F8DD7B15D29E8A00B207A4 /* EMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMAppDelegate.m; sourceTree = "<group>"; };
-		A1F8DD7D15D29E8A00B207A4 /* EMViewController.h */ = {isa = PBXFileReference; path = EMViewController.h; sourceTree = "<group>"; };
-		A1F8DD7E15D29E8A00B207A4 /* EMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMViewController.m; sourceTree = "<group>"; };
-		A1F8DD8115D29E8A00B207A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EMViewController.xib; sourceTree = "<group>"; };
+		A1F8DD7D15D29E8A00B207A4 /* SandboxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SandboxViewController.h; sourceTree = "<group>"; };
+		A1F8DD7E15D29E8A00B207A4 /* SandboxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandboxViewController.m; sourceTree = "<group>"; };
+		A1F8DD8115D29E8A00B207A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SandboxViewController.xib; sourceTree = "<group>"; };
 		A1F8DD8815D29E8A00B207A4 /* EMPieSliceTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMPieSliceTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F8DD8915D29E8A00B207A4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		A1F8DD9115D29E8A00B207A4 /* EMPieSliceTests-Info.plist */ = {isa = PBXFileReference; path = "EMPieSliceTests-Info.plist"; sourceTree = "<group>"; };
+		A1F8DD9115D29E8A00B207A4 /* EMPieSliceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EMPieSliceTests-Info.plist"; sourceTree = "<group>"; };
 		A1F8DD9315D29E8A00B207A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A1F8DD9515D29E8A00B207A4 /* EMPieSliceTests.h */ = {isa = PBXFileReference; path = EMPieSliceTests.h; sourceTree = "<group>"; };
+		A1F8DD9515D29E8A00B207A4 /* EMPieSliceTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPieSliceTests.h; sourceTree = "<group>"; };
 		A1F8DD9615D29E8A00B207A4 /* EMPieSliceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMPieSliceTests.m; sourceTree = "<group>"; };
+		A1F8DDA015D29EAE00B207A4 /* EMPie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMPie.h; sourceTree = "<group>"; };
+		A1F8DDA115D29EAE00B207A4 /* EMPie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMPie.m; sourceTree = "<group>"; };
+		A1F8DDA215D29EAE00B207A4 /* EMSlice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMSlice.h; sourceTree = "<group>"; };
+		A1F8DDA315D29EAE00B207A4 /* EMSlice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMSlice.m; sourceTree = "<group>"; };
+		A1F8DDA615D29EB700B207A4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A1F8DDA815D2A1AC00B207A4 /* EMSliceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMSliceDelegate.h; sourceTree = "<group>"; };
+		A1F8DDA915D2A1AC00B207A4 /* EMSliceDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMSliceDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1F8DDA715D29EB700B207A4 /* QuartzCore.framework in Frameworks */,
 				A1F8DD6C15D29E8A00B207A4 /* UIKit.framework in Frameworks */,
 				A1F8DD6E15D29E8A00B207A4 /* Foundation.framework in Frameworks */,
 				A1F8DD7015D29E8A00B207A4 /* CoreGraphics.framework in Frameworks */,
@@ -78,6 +96,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A16D35EA15D42F2600B55A73 /* pie */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8DDA015D29EAE00B207A4 /* EMPie.h */,
+				A1F8DDA115D29EAE00B207A4 /* EMPie.m */,
+				A1F8DDA215D29EAE00B207A4 /* EMSlice.h */,
+				A1F8DDA315D29EAE00B207A4 /* EMSlice.m */,
+			);
+			name = pie;
+			sourceTree = "<group>";
+		};
 		A1F8DD5C15D29E8900B207A4 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +129,7 @@
 		A1F8DD6A15D29E8A00B207A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A1F8DDA615D29EB700B207A4 /* QuartzCore.framework */,
 				A1F8DD6B15D29E8A00B207A4 /* UIKit.framework */,
 				A1F8DD6D15D29E8A00B207A4 /* Foundation.framework */,
 				A1F8DD6F15D29E8A00B207A4 /* CoreGraphics.framework */,
@@ -111,12 +141,19 @@
 		A1F8DD7115D29E8A00B207A4 /* EMPieSlice */ = {
 			isa = PBXGroup;
 			children = (
+				A16D35EA15D42F2600B55A73 /* pie */,
 				A1F8DD7A15D29E8A00B207A4 /* EMAppDelegate.h */,
 				A1F8DD7B15D29E8A00B207A4 /* EMAppDelegate.m */,
-				A1F8DD7D15D29E8A00B207A4 /* EMViewController.h */,
-				A1F8DD7E15D29E8A00B207A4 /* EMViewController.m */,
-				A1F8DD8015D29E8A00B207A4 /* EMViewController.xib */,
+				A16D35EB15D42F4600B55A73 /* OppositesViewController.h */,
+				A16D35EC15D42F4600B55A73 /* OppositesViewController.m */,
+				A1F8DD7D15D29E8A00B207A4 /* SandboxViewController.h */,
+				A1F8DD7E15D29E8A00B207A4 /* SandboxViewController.m */,
+				A1F8DD8015D29E8A00B207A4 /* SandboxViewController.xib */,
 				A1F8DD7215D29E8A00B207A4 /* Supporting Files */,
+				A1F8DDA815D2A1AC00B207A4 /* EMSliceDelegate.h */,
+				A1F8DDA915D2A1AC00B207A4 /* EMSliceDelegate.m */,
+				A16D35E715D42D6E00B55A73 /* EMMainViewController.h */,
+				A16D35E815D42D6E00B55A73 /* EMMainViewController.m */,
 			);
 			path = EMPieSlice;
 			sourceTree = "<group>";
@@ -223,7 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1F8DD7615D29E8A00B207A4 /* InfoPlist.strings in Resources */,
-				A1F8DD8215D29E8A00B207A4 /* EMViewController.xib in Resources */,
+				A1F8DD8215D29E8A00B207A4 /* SandboxViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +297,12 @@
 			files = (
 				A1F8DD7815D29E8A00B207A4 /* main.m in Sources */,
 				A1F8DD7C15D29E8A00B207A4 /* EMAppDelegate.m in Sources */,
-				A1F8DD7F15D29E8A00B207A4 /* EMViewController.m in Sources */,
+				A1F8DD7F15D29E8A00B207A4 /* SandboxViewController.m in Sources */,
+				A1F8DDA415D29EAE00B207A4 /* EMPie.m in Sources */,
+				A1F8DDA515D29EAE00B207A4 /* EMSlice.m in Sources */,
+				A1F8DDAA15D2A1AC00B207A4 /* EMSliceDelegate.m in Sources */,
+				A16D35E915D42D6E00B55A73 /* EMMainViewController.m in Sources */,
+				A16D35ED15D42F4600B55A73 /* OppositesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,12 +333,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		A1F8DD8015D29E8A00B207A4 /* EMViewController.xib */ = {
+		A1F8DD8015D29E8A00B207A4 /* SandboxViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A1F8DD8115D29E8A00B207A4 /* en */,
 			);
-			name = EMViewController.xib;
+			name = SandboxViewController.xib;
 			sourceTree = "<group>";
 		};
 		A1F8DD9215D29E8A00B207A4 /* InfoPlist.strings */ = {
@@ -359,6 +401,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EMPieSlice/EMPieSlice-Prefix.pch";
 				INFOPLIST_FILE = "EMPieSlice/EMPieSlice-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -370,6 +413,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EMPieSlice/EMPieSlice-Prefix.pch";
 				INFOPLIST_FILE = "EMPieSlice/EMPieSlice-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -428,6 +472,7 @@
 				A1F8DD9C15D29E8A00B207A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1F8DD9D15D29E8A00B207A4 /* Build configuration list for PBXNativeTarget "EMPieSliceTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +481,7 @@
 				A1F8DD9F15D29E8A00B207A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
